@@ -1,0 +1,17 @@
+# Phase 2: Requirement Analysis
+## Functional requirements
+| ID | Requirement |
+|----|-------------|
+| FR1 | Users can register, log in and log out |
+| FR2 | Three planners: Home, Party, Jewelry |
+| FR3 | Backend routes `/generate-home`, `/generate-party`, `/generate-jewelry` |
+| FR4 | Gemini processes text, numbers and an optional outfit image |
+| FR5 | Recommendations shown dynamically with platform, price and reason |
+| FR6 | Dashboard with recent activity and full history |
+| FR7 | Fallback recommendations when AI fails or exceeds budget |
+## Non-functional requirements
+- Responsive UI, response under ~10 s, passwords hashed, input validated, API key kept in `.env`.
+## Technology stack
+Python, Flask, SQLite, Google Gemini (google-genai SDK), HTML/CSS/JS.
+## Constraints
+Third-party platform data is mocked/simulated (no official public APIs for all sources).

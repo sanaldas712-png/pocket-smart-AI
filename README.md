@@ -1,19 +1,11 @@
-# Phase 7: Project Documentation
+# Phase 8: Project Demonstration
 
-## User guide
-1. Register and log in.
-2. Pick a planner on the dashboard.
-3. Enter budget and preferences (jewelry: optionally upload an outfit image).
-4. Click **Generate Recommendations**; review items, total and remaining budget.
-5. Revisit past plans under **History**.
+## Demo flow (about 5 minutes)
+1. Landing page -> Get Started -> register and log in.
+2. Dashboard -> Home Budget Planner: budget 50000, 5 lights, 4 fans, 2 furniture, 1 dining table -> Generate.
+3. Party Planner: budget 60000, 50 guests, birthday.
+4. Jewelry Planner: budget 5000, Wedding, upload an outfit image.
+5. History page -> show saved plans.
+6. Remove the API key -> show fallback still returns results.
 
-## Configuration
-| Variable | Purpose |
-|----------|---------|
-| `GEMINI_API_KEY` | Google AI Studio key (without it, fallback mode runs) |
-| `GEMINI_MODEL` | Model name, default `gemini-2.5-flash` |
-| `SECRET_KEY` | Flask session secret |
-
-## Known limitations
-- Prices are AI-estimated or mock data, not live listings.
-- SQLite is for demo scale only.
+Add screenshots and the demo video link here.
